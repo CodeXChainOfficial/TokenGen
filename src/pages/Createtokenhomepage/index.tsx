@@ -374,10 +374,11 @@ const networkOptions = {
 
     console.log('contractArguments:', contractArguments);
 
-    const gasLimit = 2367810; // Set the gas limit to match Remix
-    const gasPrice = '1189884'; // Set the gas price as a string to match Remix
-    console.log('gasPrice:', gasPrice);
-   
+       const gasPrice = gasPriceWei
+    console.log('Gas Price (Gwei):', gasPrice);
+    
+    const gasLimit =  1335010
+    console.log('Estimated Gas Limit:', gasLimit);
       const web3Instance = new Web3(selectedRpcUrl);
       setWeb3(web3Instance);
     
