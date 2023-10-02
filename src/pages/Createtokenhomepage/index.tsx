@@ -374,14 +374,7 @@ const networkOptions = {
 
     console.log('contractArguments:', contractArguments);
 
-       const gasPrice = gasPriceWei
-    console.log('Gas Price (Gwei):', gasPrice);
-    
-    const gasLimit =  1335010
-    console.log('Estimated Gas Limit:', gasLimit);
-      const web3Instance = new Web3(selectedRpcUrl);
-      setWeb3(web3Instance);
-    
+       
       // Request account access
       if (window.ethereum) {
         const accounts = await window.ethereum.enable();
@@ -416,7 +409,14 @@ const networkOptions = {
   const yourTokenContract = new web3.eth.Contract(abiArray, contractAddress);
   // Now you can interact with the contract
 
-            
+            const gasPrice = gasPriceWei
+    console.log('Gas Price (Gwei):', gasPrice);
+    
+    const gasLimit =  1335010
+    console.log('Estimated Gas Limit:', gasLimit);
+      const web3Instance = new Web3(selectedRpcUrl);
+      setWeb3(web3Instance);
+    
             console.log('yourTokenContract:', yourTokenContract);
     
           // Convert nonce to hexadecimal
