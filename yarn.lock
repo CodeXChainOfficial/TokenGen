@@ -14255,28 +14255,9 @@ tronbox@^3.4.0:
     web3-mock "1.0.1"
     yargs "^15.4.1"
 
-tronweb@^5.1.0:
+tronweb@^5.1.0, tronweb@^5.3.0:
   version "5.3.0"
   resolved "https://registry.npmjs.org/tronweb/-/tronweb-5.3.0.tgz"
-  integrity sha512-i03+3UviQacqdrr3VgXHDL8h/2E24BeULak4w6+yRkJaCuEyxjWOtEn1dq87ulTkHzS/vKK0zIyvW7rSxuISOA==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    "@ethersproject/abi" "^5.7.0"
-    "@tronweb3/google-protobuf" "^3.21.2"
-    axios "^0.26.1"
-    bignumber.js "^9.0.1"
-    ethereum-cryptography "^2.0.0"
-    ethers "^6.6.0"
-    eventemitter3 "^3.1.0"
-    injectpromise "^1.0.0"
-    lodash "^4.17.21"
-    querystring-es3 "^0.2.1"
-    semver "^5.6.0"
-    validator "^13.7.0"
-
-tronweb@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/tronweb/-/tronweb-5.3.0.tgz#b40c4aa68f81b70bac4d8de52960b82b61f9ab04"
   integrity sha512-i03+3UviQacqdrr3VgXHDL8h/2E24BeULak4w6+yRkJaCuEyxjWOtEn1dq87ulTkHzS/vKK0zIyvW7rSxuISOA==
   dependencies:
     "@babel/runtime" "^7.0.0"
